@@ -1,16 +1,58 @@
-# React + Vite
+# Digital Banking UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive landing page built with **React + Vite + Tailwind CSS**, showcasing prospective customer segmentation for a digital banking platform.
 
-Currently, two official plugins are available:
+## Preview
+![Digital Banking UI](./src/assets/hero.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Reusable component architecture
+- Props-based data flow
+- Dynamic card rendering with `.map()`
+- Hover animations on cards
+- Gradient overlays on images
+- Remix Icons integration
 
-## React Compiler
+## Tech Stack
+- React 18
+- Vite
+- Tailwind CSS v4
+- Remix Icons
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Folder Structure
+src/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+├── components/
+
+│   └── Section1/
+
+│       ├── Arrow.jsx
+
+│       ├── HeroText.jsx
+
+│       ├── LeftContent.jsx
+
+│       ├── Navbar.jsx
+
+│       ├── Page1Content.jsx
+
+│       ├── RightCard.jsx
+
+│       ├── RightCardContent.jsx
+
+│       ├── RightContent.jsx
+
+│       └── Section1.jsx
+
+├── App.jsx
+
+└── main.jsx
+
+## Author
+Mansi Mittal

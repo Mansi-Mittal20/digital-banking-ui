@@ -2,9 +2,6 @@
 
 A responsive landing page built with **React + Vite + Tailwind CSS**, showcasing prospective customer segmentation for a digital banking platform.
 
-## Preview
-![Digital Banking UI](./src/assets/hero.png)
-
 ## Features
 - Reusable component architecture
 - Props-based data flow
